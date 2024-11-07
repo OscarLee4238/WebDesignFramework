@@ -1,2 +1,0 @@
-Easy shortcuts:
-    div.testing*5
