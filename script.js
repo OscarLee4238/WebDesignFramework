@@ -2,7 +2,7 @@ window.addEventListener('load', () => {
     const timer = document.getElementById('countdown');
   
     if (timer) {
-      var countDownDate = new Date('Nov 15, 2024 16:00:00').getTime();
+      var countDownDate = new Date('Dec 31, 2024 23:59:59').getTime();
       setInterval(function () {
         const now = new Date().getTime();
         const distance = countDownDate - now;
@@ -14,7 +14,7 @@ window.addEventListener('load', () => {
   
         timer.innerHTML = `
           <div>
-          <h1>Time until class ends</h1>
+          <h1>Countdown to launch</h1>
           <span>${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds left!</span>
           <p><a href="" target="_blank">Set a reminders</a></p>
           </div>
