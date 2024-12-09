@@ -1,0 +1,9 @@
+/* nav .navbar-brand{
+    color: ;
+} */
+
+.line {
+    width: 100%; /* Full-width */
+    height: 2px; /* Thickness of the line */
+    margin: 20px 0; /* Space around the line */
+}
