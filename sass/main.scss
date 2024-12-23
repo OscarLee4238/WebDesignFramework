@@ -1,0 +1,273 @@
+// navbar css changes
+    .navbar-colour{
+        background-color: #D7ECD5;
+    }
+
+    .navbar-brand img{
+        width: 75px;
+        height: 75px;
+    }
+
+    .nav-item{
+        font-size: 29px;
+    }
+    .dropdown-item{
+        font-size: 29px;
+    }
+//end
+
+// hero 
+    .hero{
+        background-color: #B8DDB3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .hero-text{
+        color: #276D1E; 
+    }
+    .hero-text h1{
+        font-size: 59px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .hero-text h2{
+        font-size: 29px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .hero-image img{
+        
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+//end
+
+// introduction
+    .introduction-text{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .introduction-text h2{
+        font-size: 29px;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+
+    .introduction-text h3{
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0.17px;
+    }
+//end
+
+// goals
+    .goals{
+        display: flex;
+        padding: auto;
+        background-image: url(../images/BlackForest-Germany-GettyImages2-147180370.jpg);
+        height: 500px;
+        object-fit: fill;
+        
+    }
+    .goal-text h2{
+        text-align: center;
+        padding-top: 150px;
+        font-size: 29px;
+    }
+
+    .goal-text h3{
+        font-size: 20px;
+        text-align: center;
+    }
+//end
+
+// feature
+    .features{
+        padding-top: 50px;
+        text-align: center; 
+    }
+
+    .feature {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        
+    }
+    
+    .feature img {
+        max-width: 75%;
+        margin-bottom: 10px; 
+        padding-left: 50px;
+        border-radius: 25px, 25px, 0px, 0px;
+    }
+
+    .col-md-4 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+//end
+
+
+//download
+    .demo {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        padding: 40px;
+        background-color: #B8DDB3;
+        text-align: center;
+    }
+
+    .demo-text h1 {
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+
+    .demo-image img {
+        max-width: 15%;
+        height: auto;
+        margin-bottom: 30px; 
+        border: 1px solid white;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .demo-button button {
+        padding: 15px 50px;
+        font-size: 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 54px;
+        cursor: pointer;
+    }
+
+    .demo-button button:hover {
+        background-color: #45a049;
+    }
+//end
+
+//review
+    .reviews{
+        padding-bottom: 50px;
+    }
+    .reviews h2{
+        padding-top: 50px;
+        font-size: 29px;
+        text-align: center;
+    }
+
+    .review-stars-box span{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .star{
+        font-size: 40px;
+    }
+
+    .star:hover{
+        color: #276D1E
+    }
+
+    .review-comment{
+        text-align: center;
+    }
+
+    .review-comment textarea {
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        border: 2px solid green;
+        border-radius: 25px;
+        width: 50%;
+        resize: vertical;
+    }
+
+    .review-button{
+        justify-content: center;
+        font-size: 20px;
+        border-radius: 40px;
+        padding: 10px 30px;
+    }
+    .review-button:hover{
+        background-color:#45a049;
+        color: white;
+        border-color: #276D1E
+    }
+//end
+
+//meet the team
+
+    .team{
+        border-top: 10px solid;
+        border-bottom: 10px solid;
+    }
+
+    .team-heading h2{
+        font-size:29px;
+        padding: 50px;
+    }
+    .team-image img {
+        width: 50%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 80px;
+        border: 5px solid green;
+    }
+    
+    .members h3{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+//end
+
+//footer
+.footer{
+    background-color: #B8DDB3;
+}
+
+.contact-us h3{
+    color: #276D1E;
+}
+
+.contact-us h3:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    fill: #45a049;
+}
+
+.footer-svg{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    right: 5%;
+    
+    
+}
+//footer end
+
+
+// Font sizes
+    // h1: 59px
+    // h2: 29px
+    // h3: 20px
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
